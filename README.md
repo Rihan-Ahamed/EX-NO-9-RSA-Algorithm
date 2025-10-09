@@ -99,8 +99,8 @@ int main() {
         printf("Modular inverse does not exist for the given 'e'. Exiting.\n");
         return 1;
     }
-    printf("Public key: (n = %d, e = %d)\n", n, e);
-    printf("Private key: (n = %d, d = %d)\n", n, d);
+    printf("Public key: (e = %d, n = %d)\n", e,n);
+    printf("Private key: (d = %d, n = %d)\n", d, n);
     
     printf("Enter the message to encrypt (as an integer): ");
     scanf("%d", &message);
@@ -117,7 +117,8 @@ int main() {
 
 ## Output:
 
-<img width="844" height="433" alt="image" src="https://github.com/user-attachments/assets/19db8080-f7c1-4046-9ec3-e58d87b35622" />
+<img width="802" height="572" alt="image" src="https://github.com/user-attachments/assets/e1dbb6ef-af47-4bac-a4bf-b6b2186447ef" />
+
 
 
 
